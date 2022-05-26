@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(221, 205, 171);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   font-family:Lexend, Shadows Into Light;
+   font-size: 14px;
+}
+ 
+nav ul li{
+   padding: 0 12px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(37, 9, 22) ;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.brand img{
+   height: 50px;
+   padding: 0 8px;
+   margin: 0;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 80vh;
+}
+
+.bottom{
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myProgressBar{
+    width: 40vw;
+}
